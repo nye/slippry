@@ -289,6 +289,9 @@ $arrows_url: '/images/arrows.svg' !default;
     height: $pager_size;
     margin: 0 1em 0 0;
     @include border-radius(50%);
+    &:last-child{
+	     margin-right: 0;
+    }
     &.sy-active {
       a {
         background-color: $color_high;
